@@ -1,5 +1,5 @@
 
-dist: trusty
+dist: xenial
 sudo: required
 
 language: c
@@ -43,7 +43,7 @@ script:
     - sudo install -m 644 *.a /usr/local/lib
     - cd ..
     - git clone https://github.com/sbabic/libubootenv.git
-    - cd liububootenv
+    - cd libubootenv
     - cmake .
     - make
     - sudo make install
