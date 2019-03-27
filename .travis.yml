@@ -19,8 +19,8 @@ before_install:
     - sudo apt-get install -y uuid
     - sudo apt-get install -y uuid-dev
     - sudo apt-get install -y liblzo2-dev
-    - sudo apt-get install -y libsystemd-daemon-dev
-    - sudo apt-get install -y libsystemd-daemon0
+    - sudo apt-get install -y libsystemd-dev
+    - sudo apt-get install -y libsystemd0
     - sudo apt-get install -y check
     - sudo apt-get install -y librsync1
     - sudo apt-get install -y librsync-dev
